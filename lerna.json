@@ -9,7 +9,7 @@
     "publish": {
       "conventionalCommits": true,
       "registry": "http://localhost:4873/",
-      "allowBranch": ["main", "pnpm-catalog"],
+      "allowBranch": ["main"],
       "message": "chore(release): publish"
     }
   }
