@@ -4,12 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-catalogs:
-  react18:
-    react:
-      specifier: ^18.3.1
-      version: 18.3.1
-
 importers:
 
   .:
@@ -46,7 +40,7 @@ importers:
   packages/button:
     dependencies:
       react:
-        specifier: catalog:react18
+        specifier: ^18.3.1
         version: 18.3.1
     devDependencies:
       '@rollup/plugin-terser':
@@ -83,7 +77,7 @@ importers:
   packages/label:
     dependencies:
       react:
-        specifier: catalog:react18
+        specifier: ^18.3.1
         version: 18.3.1
     devDependencies:
       '@rollup/plugin-terser':
