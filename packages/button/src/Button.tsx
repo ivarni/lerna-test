@@ -8,7 +8,7 @@ const Button:FC<Props> = ({children}) => {
         border: "1px solid dimgrey",
         borderRadius: 4,
         backgroundColor: 'black',
-        color: 'white',
+        color: 'red',
         padding: '4px 8px'
     }}>{children}</button>
 }
