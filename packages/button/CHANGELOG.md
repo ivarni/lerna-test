@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.2](https://github.com/ivarni/lerna-test/compare/button@1.2.1...button@1.2.2) (2024-08-09)
+
+### Bug Fixes
+
+* force new version, build before release ([fd3ed35](https://github.com/ivarni/lerna-test/commit/fd3ed35493f969a698be8eec30752d9215bd0694))
+
 ## [1.2.1](https://github.com/ivarni/lerna-test/compare/button@1.2.0...button@1.2.1) (2024-08-09)
 
 ### Bug Fixes
