@@ -9,7 +9,7 @@
     "build": "turbo run build",
     "version:prerelease": "lerna version --conventional-commits --conventional-prerelease",
     "version:graduate": "lerna version --conventional-commits --conventional-graduate",
-    "publish": "lerna publish",
+    "release": "lerna publish from-package",
     "commitlint": "commitlint --edit"
   },
   "keywords": [],
