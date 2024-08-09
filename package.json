@@ -7,8 +7,8 @@
   "scripts": {
     "prepare": "husky",
     "build": "turbo run build",
-    "version:prerelease": "lerna version --conventional-prerelease",
-    "version:graduate": "lerna version --conventional-graduate",
+    "version:prerelease": "lerna version --conventional-commits --conventional-prerelease",
+    "version:graduate": "lerna version --conventional-commits --conventional-graduate",
     "commitlint": "commitlint --edit"
   },
   "keywords": [],
