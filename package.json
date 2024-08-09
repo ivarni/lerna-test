@@ -16,6 +16,8 @@
   },
   "devDependencies": {
     "@lerna-lite/cli": "^3.8.0",
+    "@lerna-lite/publish": "^3.8.0",
+    "@lerna-lite/version": "^3.8.0",
     "turbo": "^2.0.12"
   }
 }
