@@ -4,5 +4,13 @@
   "packages": [
     "packages/*"
   ],
-  "npmClient": "pnpm"
+  "npmClient": "pnpm",
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "registry": "http://localhost:4873/",
+      "allowBranch": ["main", "release"],
+      "message": "chore(release): publish"
+    }
+  }
 }
