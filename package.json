@@ -5,10 +5,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prepare": "husky",
     "build": "turbo run build",
     "version:prerelease": "lerna version --conventional-prerelease",
     "version:graduate": "lerna version --conventional-graduate",
-    "prepare": "husky",
     "commitlint": "commitlint --edit"
   },
   "keywords": [],
