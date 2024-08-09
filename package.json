@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky",
+    "clean": "turbo run clean",
     "build": "turbo run build",
     "version:prerelease": "lerna version --conventional-commits --conventional-prerelease",
     "version:graduate": "lerna version --conventional-commits --conventional-graduate",
@@ -15,8 +16,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@8.6.7+sha256.fb41f6cde380621a838e99632ef78778b682d57e2c937895afb5c497a11ceb6f",
+  "packageManager": "pnpm@9.5.0",
   "dependencies": {
+    "clsx": "^2.1.1",
     "react": "^18.3.1"
   },
   "devDependencies": {
