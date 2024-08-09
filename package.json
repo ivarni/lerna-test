@@ -6,7 +6,10 @@
   "main": "index.js",
   "scripts": {
     "build": "turbo run build",
-    "version": "lerna version"
+    "version:prerelease": "lerna version --conventional-prerelease",
+    "version:graduate": "lerna version --conventional-graduate",
+    "prepare": "husky",
+    "commitlint": "commitlint --edit"
   },
   "keywords": [],
   "author": "",
@@ -16,9 +19,12 @@
     "react": "^18.3.1"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.4.0",
+    "@commitlint/config-conventional": "^19.2.2",
     "@lerna-lite/cli": "^3.8.0",
     "@lerna-lite/publish": "^3.8.0",
     "@lerna-lite/version": "^3.8.0",
+    "husky": "^9.1.4",
     "turbo": "^2.0.12"
   }
 }
