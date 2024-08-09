@@ -3,6 +3,8 @@ import clsx from 'clsx';
 type Props = {} & ComponentProps<"button">
 
 const Button:FC<Props> = ({children}) => {
+    console.log('this is the button module')
+
     return <button className={clsx("foo", "bar")} style={{
         appearance: "none",
         border: "1px solid dimgrey",

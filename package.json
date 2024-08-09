@@ -10,7 +10,7 @@
     "build": "turbo run build",
     "version:prerelease": "lerna version --conventional-commits --conventional-prerelease",
     "version:graduate": "lerna version --conventional-commits --conventional-graduate",
-    "release": "lerna publish from-package",
+    "release": "pnpm build && lerna publish from-package",
     "commitlint": "commitlint --edit"
   },
   "keywords": [],
