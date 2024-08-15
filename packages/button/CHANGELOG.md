@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/ivarni/lerna-test/compare/button@1.2.2...button@1.3.0) (2024-08-15)
+
+### Features
+
+* color is now blue ([fa65b5c](https://github.com/ivarni/lerna-test/commit/fa65b5c9be2de20fe52043f89c5bbd788555999e))
+
 ## [1.2.2](https://github.com/ivarni/lerna-test/compare/button@1.2.1...button@1.2.2) (2024-08-09)
 
 ### Bug Fixes
