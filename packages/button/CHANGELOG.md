@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0-alpha.2](https://github.com/ivarni/lerna-test/compare/button@1.4.0-alpha.1...button@1.4.0-alpha.2) (2024-08-15)
+
+### Features
+
+* no more exclamation mark ([096f1b5](https://github.com/ivarni/lerna-test/commit/096f1b5c8b7bb24faef97df3765d8108c3ee60d7))
+
 # [1.4.0-alpha.1](https://github.com/ivarni/lerna-test/compare/button@1.4.0-alpha.0...button@1.4.0-alpha.1) (2024-08-15)
 
 **Note:** Version bump only for package button
