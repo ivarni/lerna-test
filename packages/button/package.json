@@ -1,6 +1,6 @@
 {
   "name": "button",
-  "version": "1.4.0-alpha.0",
+  "version": "1.4.0-alpha.1",
   "description": "",
   "type": "module",
   "main": "./build/cjs/index.js",
