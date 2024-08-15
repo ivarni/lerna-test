@@ -12,7 +12,7 @@ const Button:FC<Props> = ({children}) => {
         backgroundColor: 'black',
         color: 'red',
         padding: '4px 8px'
-    }}>{children}!</button>
+    }}>{children}</button>
 }
 
 export default Button;
