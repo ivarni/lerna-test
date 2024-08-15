@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0-alpha.0](https://github.com/ivarni/lerna-test/compare/button@1.3.0...button@1.4.0-alpha.0) (2024-08-15)
+
+### Features
+
+* color is now red ([35146f1](https://github.com/ivarni/lerna-test/commit/35146f1efefc855ffbcf48fe0bf662c3c8340695))
+
 # [1.3.0](https://github.com/ivarni/lerna-test/compare/button@1.2.2...button@1.3.0) (2024-08-15)
 
 ### Features
