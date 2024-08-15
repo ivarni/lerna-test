@@ -10,7 +10,7 @@ const Button:FC<Props> = ({children}) => {
         border: "1px solid dimgrey",
         borderRadius: 4,
         backgroundColor: 'black',
-        color: 'red',
+        color: 'blue',
         padding: '4px 8px'
     }}>{children}</button>
 }
